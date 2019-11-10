@@ -14,13 +14,13 @@
 # along with PYDE.  If not, see <https://www.gnu.org/licenses/>
 
 from PyQt5.QtWidgets import QWidget, QPlainTextEdit, QApplication, QTextEdit
-from PyQt5.QtGui import QColor, QTextFormat, QPainter
+from PyQt5.QtGui import QColor, QTextFormat, QPainter, QSyntaxHighlighter, QTextCharFormat
 from PyQt5.QtCore import QRect, pyqtSlot, Qt
 
 
 class LineNumberArea(QWidget):
     def __init__(self, editor):
-        QWidget.__init__(self, parent=editor)
+        QWidget.__init__(self, parent = editor)
         self.codeEditor = editor
 
     def sizeHint(self):
@@ -30,7 +30,7 @@ class LineNumberArea(QWidget):
         self.codeEditor.lineNumberAreaPaintEvent(event)
 
 class CodeEditor(QPlainTextEdit):
-    def __init__(self, parent=None):
+    def __init__(self, parent = None):
         QPlainTextEdit.__init__(self, parent)
         self.lineNumberArea = LineNumberArea(self)
         self.blockCountChanged.connect(self.updateLineNumberAreaWidth)
