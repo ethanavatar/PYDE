@@ -2,10 +2,9 @@
 An IDE made using PyQt5
 
 ### Currently
-  * Its just a `PlainTextEdit` with no external functionallity like new, open, save, etc.
-  * And an empty `TreeWidget`
+  * Now has all fuctions like a normal text editor; new, open, save, etc.
+  * `DirTree` now shows a treeview of the working directory (which is stuck at root currently)
+  * Dark mode is default now and you're stuck with it (no way to change it)
 ### TODO
-  * Get the whole file menu functioning to make it more than just a notepad.
-  * Have the `TreeWidget` list the structure of  a chosen directory (preferably through `open folder` in the file menu).
+  * Have the `DirTree` list the structure of  a chosen directory (preferably through `open folder` in the file menu).
   * syntax highlighting
-  * glorious dark mode
