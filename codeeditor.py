@@ -14,8 +14,8 @@
 # along with PYDE.  If not, see <https://www.gnu.org/licenses/>
 
 from PyQt5.QtWidgets import QWidget, QPlainTextEdit, QApplication, QTextEdit
-from PyQt5.QtGui import QColor, QTextFormat, QPainter, QSyntaxHighlighter, QTextCharFormat
-from PyQt5.QtCore import QRect, pyqtSlot, Qt
+from PyQt5.QtGui import QColor, QTextFormat, QPainter
+from PyQt5.QtCore import QRect, pyqtSlot, QSize, Qt
 
 
 class LineNumberArea(QWidget):
