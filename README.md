@@ -3,12 +3,12 @@ An IDE made using PyQt5
 
 ### Currently
   * Now has all fuctions like a normal text editor; new, open, save, etc.
-  * `DirTree` now shows a treeview of the working directory (which is stuck at root currently)
-  * Dark mode is default now and you're stuck with it (no way to change it)
+  * Removed `dirtree` because i needed to focus on the core features of a text editor
+   * Same with dark mode
 
 ### TODO
-  * Have the `DirTree` list the structure of  a chosen directory (preferably through `open folder` in the file menu).
-  * syntax highlighting
+  * syntax highlighting (less important)
+  * Edit menu functions; undo, redo, copy, cut, paste, etc
 
 ### Installation & Use
 Just make sure you already have PyQt5 installed by doing :
