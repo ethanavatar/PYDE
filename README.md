@@ -1,5 +1,5 @@
 # PYDE
-An IDE made using PyQt5
+A ~~IDE~~ simple text editor made using PyQt5
 
 ### Currently
   * Now has all fuctions like a normal text editor; new, open, save, etc.
